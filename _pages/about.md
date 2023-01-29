@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! My name is Shangjia Zhang (张尚嘉). I am a fifth-year graduate student studying Astronomy at the University of Nevada, Las Vegas (UNLV). I am working with [Prof. Zhaohuan Zhu](https://unlv-spfg.github.io/team/zhu-zhaohuan/) on various aspects of the protoplanetary disk, the birthplace of planets. Before coming to Las Vegas, I was an undergraduate at the University of Michigan, Ann Arbor. I studied star formation with Prof. Lee Hartmann back then.
+Hello! My name is Shangjia Zhang (张尚嘉). I am a fifth-year graduate student studying Astronomy at the University of Nevada, Las Vegas (UNLV). I am working with [Prof. Zhaohuan Zhu](https://unlv-spfg.github.io/team/zhu-zhaohuan/) on various aspects of the protoplanetary disk, the birthplace of planets. Before coming to Las Vegas, I was an undergraduate at the University of Michigan, Ann Arbor. I studied star formation with [Prof. Lee Hartmann](https://sites.lsa.umich.edu/lhartm/) back then.
 
 My current thesis project is to build a 3D radiation hydrodynamics planet-disk interaction simulation. This can be realized by the powerful Athena++ radiation module. I am working with [Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage) on implementing stellar irradiation with mesh refinement and MPI. Once the radiation is coupled with the hydrodynamics, we expect the disk to behave differently. We can better explain many fantastic observations (for example, shadowing in protoplanetary disks).
 
