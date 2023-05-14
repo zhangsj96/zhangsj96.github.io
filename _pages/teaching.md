@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Physics and Astronomy Lab
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Spring 2019 Physics 151 L 
 
-Organize your courses by years, topics, or universities, however you like!
+General Physics I (Mechanics and Thermal Physics), Lecturer and Grader
+
+
+Spring 2020 Astro 105 
+
+Introductory Astronomy Laboratory, Lecturer, Grader and Proctor
+

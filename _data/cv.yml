@@ -10,43 +10,43 @@
     - title: PhD in Astronomy
       institution: University of Nevada, Las Vegas
       year: 2024 (expected)
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
     - title: B.S. in Astronomy and Physics
       institution: University of Michigan, Ann Arbor
       year: 2018
-      description:
-        - Worked with Prof. Lee Hartmann on star formation
-        - Studied the sythetic observations of the line velocities of protostellar cores from large scale simulations
+#      description:
+#        - Worked with Prof. Lee Hartmann on star formation
+#        - Studied the sythetic observations of the line velocities of protostellar cores from large scale simulations
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Graduate Research Assistant
-      institution: University of Nevada, Las Vegas
-      year: 2019 - 2024
-      description:
-        - Advisor: Prof. Zhaohuan Zhu
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Graduate Teaching Assistant
-      institution: University of Nevada, Las Vegas
-      year: 2018 - 2019
-      description:
-        - Description 1.
-        - Description 2.
+#- title: Experience
+#  type: time_table
+#  contents:
+#    - title: Graduate Research Assistant
+#      institution: University of Nevada, Las Vegas
+#      year: 2019 - 2024
+#      description:
+#        - Advisor: Prof. Zhaohuan Zhu
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+#    - title: Graduate Teaching Assistant
+#      institution: University of Nevada, Las Vegas
+#      year: 2018 - 2019
+#      description:
+#        - Description 1.
+#        - Description 2.
 
-    - title: Undergraduate Research Assistant
-      institution: University of Michigan, Ann Arbor
-      year: 2017 - 2018
+#    - title: Undergraduate Research Assistant
+#      institution: University of Michigan, Ann Arbor
+#      year: 2017 - 2018
 
 
 #- title: Open Source Projects
@@ -70,26 +70,20 @@
   type: nested_list
   contents:
     - title: Planet-disk interactions and young planet population
-      items: 
-        - Description 1.
-        - Description 2.
         
     - title: Disk thermal structure
-      items:
-        - Description 1.
-        - Description 2.
         
-    - title: Radiation Hydrodynamics
+    - title: Radiation Hydrodynamics of Protoplanetary Disk
       items:
-        - Description 1.
-        - Description 2.
+        - Vertical Shear Instability
+        - Planet-disk interactions with shadowing
     
     - title: Dust properties in protoplanetary disks
       items:
-        - Description 1.
-        - Description 2.
+        - Fitting self-scattering polarization observations and continuum SEDs
+    - title: Deep Learning Applications in Protoplanetary Disks
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Traveling, Rock Climbing, Skiing.
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Traveling, Rock Climbing, Skiing.
