@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://ncfa.physics.unlv.edu">NCfA, UNLV</a>, PhD Candidate, Computational Astrophysicist
+subtitle: (He/Him) <a href="https://ncfa.physics.unlv.edu">NCfA, UNLV</a>, PhD Candidate, Computational Astrophysicist
 
 profile:
   align: right
