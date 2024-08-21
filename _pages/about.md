@@ -12,6 +12,7 @@ profile:
     <p>Pupin Hall 1026,</p>
     <p>Columbia University</p>
     <p>New York, NY, USA</p>
+    <p>sz3342 at columbia.edu</p>
     
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
