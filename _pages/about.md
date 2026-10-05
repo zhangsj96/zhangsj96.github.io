@@ -26,7 +26,8 @@ latest_posts:
 ---
 
 **Beyond the snapshot.** I am a computational astrophysicist who studies how planets form. Breakthrough
-observatories now give us sharp images of planet-forming disks. Rings and gaps are ubiquitous. Some disks
+observatories such as ALMA, JWST, and extreme adaptive optics instruments now give us sharp images of
+planet-forming disks. Rings and gaps are ubiquitous. Some disks
 also show spirals, shadows, and warps. After more than a decade of these observations,
 we have more than snapshots. We can now see disks change over time. I build 3D simulations that evolve in
 time, with many dust sizes, multi-frequency radiation, and dust–gas coupling. How disks change and respond then
