@@ -92,10 +92,11 @@ flows, tested against full data cubes rather than a few summary statistics.
 
 **Shadow motions from Gaia DR4.** Gaia Data Release 4, expected in December 2026, will include a new
 [residual image](https://www.cosmos.esa.int/web/gaia/dr4-previews/-/asset_publisher/50mGhjBQ11Dt/content/2025-12-08-gaia-dr4-data-product-introduction-the-residual-image)
-product that reveals scattered light from protoplanetary disks around bright stars. Gaia's repeated scans give a
-fundamentally different view from SPHERE or JWST, which provide high-fidelity snapshots at one or a few epochs. I am
-building software to reconstruct and analyze these images for a large, homogeneous sample of resolved disks, to
-separate persistent disk morphology from time-variable illumination and to track shadow motions across a population
+product that reveals scattered light from protoplanetary disks around bright stars. The residual image is built by
+stacking Gaia's many scans of each star over the mission. A single scan has too little signal to show a disk on its
+own. But with a model of how shadows and the disk move over time, the individual scans can be fit together to infer
+how the disk varies. I am building software to do this for a large, homogeneous sample of resolved disks. The goal is
+to separate persistent disk structure from time-variable illumination, and to track shadow motions across a population
 rather than one disk at a time. Because shadows are cast by inner disks, their long-term variability measures how
 inner disks precess, which in turn constrains young planets too close to the star to be resolved directly.
 
