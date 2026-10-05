@@ -3,7 +3,7 @@ layout: page
 title: Machine learning and AI-assisted inference
 description: From neural networks that weigh hidden planets to AI-accelerated models of disk kinematics and Gaia images
 img: assets/img/research/thumb_ml.jpg
-importance: 1
+importance: 6
 category: machine learning
 related_publications: true
 ---

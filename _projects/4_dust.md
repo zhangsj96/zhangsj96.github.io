@@ -3,7 +3,7 @@ layout: page
 title: Dust properties from multi-wavelength observations
 description: Measuring dust size and porosity with continuum and polarization
 img: assets/img/research/thumb_dust.jpg
-importance: 4
+importance: 5
 category: planet formation
 related_publications: true
 ---

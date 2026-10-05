@@ -3,7 +3,7 @@ layout: page
 title: Turbulence and kinematics from radiation hydrodynamics
 description: The disk's thermal structure sets where the vertical shear instability operates
 img: assets/img/research/thumb_vsi.jpg
-importance: 2
+importance: 3
 category: disk physics
 related_publications: true
 ---

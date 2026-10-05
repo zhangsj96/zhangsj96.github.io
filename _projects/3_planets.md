@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Young planets in disk surveys
-description: Inferring the hidden planet population from hundreds of observed disks
+description: Inferring the hidden planet population from disk surveys
 img: assets/img/research/dsharp_gallery.jpg
-importance: 3
+importance: 2
 category: planet formation
 related_publications: true
 ---

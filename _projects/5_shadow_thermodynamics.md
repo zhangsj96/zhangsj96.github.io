@@ -3,7 +3,7 @@ layout: page
 title: Probing disk cooling with time-dependent features
 description: Measuring cooling times and fundamental disk properties, such as gas density and grain size, from how dust and gas respond to shadows
 img: assets/img/research/shadow_paper1_schematic.png
-importance: 1.5
+importance: 4
 category: disk physics
 related_publications: true
 ---

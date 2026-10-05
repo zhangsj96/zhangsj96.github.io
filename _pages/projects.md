@@ -5,7 +5,6 @@ permalink: /research/
 description: Connecting radiation-hydrodynamical simulations, machine learning, and observations of planet-forming disks.
 nav: true
 nav_order: 1
-display_categories: [machine learning, disk physics, planet formation]
 horizontal: false
 ---
 
