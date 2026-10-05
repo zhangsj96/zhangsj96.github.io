@@ -2,11 +2,18 @@
 layout: page
 title: Shadows and disk thermodynamics
 description: How shadows cast by inner disks cool, warp, and sculpt the outer disk
-img:
+img: assets/img/research/thumb_shadows.jpg
 importance: 1
 category: disk physics
 related_publications: true
 ---
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include video.liquid path="/assets/video/shadow_warp_intro.mp4" poster="/assets/video/shadow_warp_intro.jpg" class="img-fluid rounded z-depth-1" controls=true %}
+    <div class="caption">An introduction to shadow-induced warps, rendered in Blender by Shangjia Zhang. <a href="https://doi.org/10.6084/m9.figshare.30531185">full resolution on figshare</a>.</div>
+  </div>
+</div>
 
 Scattered-light images from extreme adaptive optics often show dark lanes and wedges on planet-forming disks:
 shadows cast by material close to the star. Because these shadows change how much starlight reaches the outer disk,
@@ -22,11 +29,22 @@ More broadly, temperature variations themselves can create rings and spirals
 {% cite 2021ApJ...923...70Z 2025ApJ...980..259Z %}, which is essential to know before attributing every
 substructure to a planet.
 
-<!-- FIGURE SLOT: hero movie or image, e.g. 3D RHD shadow simulation (YouTube/Vimeo embed or short mp4)
-<div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/VIDEO_ID" class="img-fluid rounded z-depth-1" %}
+### Movies
+
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include video.liquid path="/assets/video/shadow_warp_3d.mp4" poster="/assets/video/shadow_warp_3d.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
+    <div class="caption">Midplane density of a 3D disk illuminated with a shadow lane inclined by 30°: the outer disk warps. <a href="https://doi.org/10.6084/m9.figshare.30535781">full resolution on figshare</a>.</div>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include video.liquid path="/assets/video/tdisk_azimuthal_scan.mp4" poster="/assets/video/tdisk_azimuthal_scan.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
+    <div class="caption">Azimuthal scan through a shadowed transition disk: density, velocities, temperature, and forces (extension of Fig. 4 in Zhang &amp; Zhu 2024). <a href="https://doi.org/10.6084/m9.figshare.26740423">full resolution on figshare</a>.</div>
   </div>
 </div>
-<div class="caption">Caption: what the movie shows, in one sentence.</div>
--->
+<div class="row">
+  <div class="col-sm-12 mt-3">
+    {% include video.liquid path="/assets/video/tdisk_overview.mp4" poster="/assets/video/tdisk_overview.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
+    <div class="caption">Full evolution of the 3D radiation-hydrodynamical transition-disk simulation with a shadow: midplane, elevated, and vertical slices of density, temperature, and velocities. <a href="https://doi.org/10.6084/m9.figshare.26763787">full resolution on figshare</a>.</div>
+  </div>
+</div>
+

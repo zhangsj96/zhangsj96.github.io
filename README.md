@@ -7,10 +7,10 @@ GitHub Pages by `.github/workflows/deploy.yml` on every push to `master`.
 
 | Content | File |
 | --- | --- |
-| Home page (bio, job-market note) | `_pages/about.md` |
+| Home page (bio, research summary) | `_pages/about.md` |
 | News items | `_news/*.md` (one file per item) |
 | Research themes (cards + detail pages) | `_projects/*.md`, landing page `_pages/projects.md` |
-| Figures / movies for research pages | `assets/img/research/`, `assets/video/` (or embed YouTube/Vimeo) |
+| Figures / movies for research pages | `assets/img/research/`, `assets/video/` (web-compressed copies; full-res on figshare) |
 | Publications | `_bibliography/papers.bib` (`selected={true}` → home page; `preview=` → thumbnail) |
 | Talks, press, outreach | `_pages/talks.md` |
 | Teaching & mentoring | `_pages/teaching.md` |

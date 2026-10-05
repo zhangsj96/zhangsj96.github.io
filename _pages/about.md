@@ -48,7 +48,3 @@ working with [Prof. Lee Hartmann](https://sites.lsa.umich.edu/lhartm/), after tw
 My simulations use the radiation module of [Athena++](https://www.athena-astro.app/) developed by
 [Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage). See my [research](/research/) page for
 movies and highlights, or my full [publication list](/publications/) and [CV](/cv/).
-
-> **I am on the 2026–27 faculty job market.** My [CV](/assets/pdf/Shangjia_Zhang_CV.pdf) and research statement
-> materials are available on request.
-{: .block-tip }

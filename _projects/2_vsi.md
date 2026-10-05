@@ -2,7 +2,7 @@
 layout: page
 title: Turbulence and kinematics from radiation hydrodynamics
 description: Self-consistent thermal structure sets where the vertical shear instability operates
-img:
+img: assets/img/research/thumb_vsi.jpg
 importance: 2
 category: disk physics
 related_publications: true
@@ -19,4 +19,19 @@ I continue this program with collaborators and students, extending the radiation
 absorption and scattering opacities {% cite 2026arXiv260608859B %} and coupling it to dust coagulation and settling to
 explain the morphologies of mature (Class II) disks {% cite pfeil2026vsiclassii %}.
 
-<!-- FIGURE SLOT: VSI velocity movie (e.g. vertical velocity in the r–z plane) -->
+### Movies
+
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include video.liquid path="/assets/video/vsi_isothermal.mp4" poster="/assets/video/vsi_isothermal.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
+    <div class="caption">Line integral convolution of the flow in a vertically isothermal VSI simulation.</div>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include video.liquid path="/assets/video/vsi_radiation.mp4" poster="/assets/video/vsi_radiation.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
+    <div class="caption">The same in a radiation-hydrodynamical simulation with stellar irradiation.</div>
+  </div>
+</div>
+<div class="caption">
+  Flow structure of the vertical shear instability visualized with line integral convolution. <a href="https://doi.org/10.6084/m9.figshare.32300919">full resolution on figshare</a>.
+</div>
+

@@ -14,7 +14,7 @@ related_publications: true
   </div>
 </div>
 <div class="caption">
-  The 20 disks of the ALMA DSHARP Large Program. Credit: ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; NRAO/AUI/NSF, S. Dagnello.
+  The 20 disks of the ALMA DSHARP Large Program at 1.25 mm (data: Andrews et al. 2018). Image: Shangjia Zhang.
 </div>
 
 If the gaps and rings seen by ALMA are carved by planets, they reveal a population of young planets at wide orbits
@@ -26,4 +26,10 @@ convolutional neural network that predicts planet masses directly from continuum
 {% cite 2022MNRAS.510.4473Z %}. I also study how disk physics such as self-gravity and radiative cooling changes the
 gaps and spirals a planet produces {% cite 2020MNRAS.493.2287Z %}.
 
-<!-- FIGURE SLOT: planet–disk simulation movie (gas + dust) or PGNets schematic -->
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3">
+    {% include video.liquid path="/assets/video/dsharp_planet_disk.mp4" poster="/assets/video/dsharp_planet_disk.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
+    <div class="caption">A planet–disk interaction simulation: a young planet carves gaps in the gas, small dust, and big dust, producing rings and gaps in the 1.3 mm dust continuum like those seen by DSHARP.</div>
+  </div>
+</div>
+
