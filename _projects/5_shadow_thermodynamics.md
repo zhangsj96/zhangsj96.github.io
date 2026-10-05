@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Disk thermodynamics with shadows
-description: How fast do disks cool? Measuring thermodynamics from how dust and gas respond to shadows
-img: assets/img/research/thumb_shadow_thermo.jpg
+title: Probing disk cooling with time-dependent features
+description: Measuring cooling times and fundamental disk properties, such as gas density and grain size, from how dust and gas respond to shadows
+img: assets/img/research/shadow_paper1_schematic.png
 importance: 1.5
 category: disk physics
 related_publications: true
