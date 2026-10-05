@@ -25,5 +25,6 @@ __pycache__/
 
 # Unpublished work: shown in the local preview only, never pushed to GitHub.
 # Once a paper is submitted, delete its lines here, then commit the files.
-_projects/6_shadow_cooling_diagram.md
+_includes/unpublished/
+_data/unpublished.yml
 assets/img/unpublished/

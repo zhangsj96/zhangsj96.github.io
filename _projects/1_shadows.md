@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Shadows and disk thermodynamics
-description: How shadows cast by inner disks cool, warp, and sculpt the outer disk
+title: Shadow-driven dynamics
+description: How shadows cast by inner disks launch spirals, drive accretion, and warp the outer disk
 img: assets/img/research/thumb_shadows.jpg
 importance: 1
 category: disk physics
@@ -23,7 +23,7 @@ spirals that efficiently transport mass through the cavity and resemble features
 {% cite 2024ApJ...974L..38Z %}. Shadows cast by a misaligned inner disk can drive strong accretion and even warp the
 outer disk {% cite 2025ApJ...995L..33Z %}. With PhD student Xiaoyi Ma, I am building a framework for how dust and gas
 emission respond to shadows, so that observations of shadowed disks can constrain how quickly disks cool
-{% cite zhang2026shadowsI %}; see [shadows as thermometers](/projects/5_shadow_thermometer/).
+{% cite zhang2026shadowsI %}; see [disk thermodynamics with shadows](/projects/5_shadow_thermodynamics/).
 
 More broadly, temperature variations themselves can create rings and spirals
 {% cite 2021ApJ...923...70Z 2025ApJ...980..259Z %}, which is essential to know before attributing every

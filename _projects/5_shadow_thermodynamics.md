@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Shadows as thermometers
-description: How fast do disks cool? Reading thermodynamics from the dust and gas response to shadows
+title: Disk thermodynamics with shadows
+description: How fast do disks cool? Measuring thermodynamics from how dust and gas respond to shadows
 img: assets/img/research/thumb_shadow_thermo.jpg
 importance: 1.5
 category: disk physics
@@ -61,6 +61,10 @@ response regimes set by the hierarchy of these timescales {% cite zhang2026shado
   surface densities, and opacities, compared with the framework's analytic predictions (lines). Zhang, Ma et al.
   (submitted).
 </div>
+
+{% if site.data.unpublished.shadows_paper2 %}
+{% include unpublished/shadows_paper2.md %}
+{% endif %}
 
 ## What comes next
 
