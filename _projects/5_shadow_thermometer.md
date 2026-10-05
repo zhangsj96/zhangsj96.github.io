@@ -26,6 +26,20 @@ radiatively; gas exchanges heat with the dust through collisions. The **amplitud
 radiative cooling time and the dust–gas collisional coupling time, each compared with the time it takes to orbit
 through the shadow.
 
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3">
+    {% include figure.liquid loading="lazy" path="assets/img/research/shadow_paper1_schematic.png" title="How dust and gas respond to a shadow" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  How dust and gas respond to a shadow. Stellar light scattered by dust sets the equilibrium temperature, which is
+  reduced in the shadow (yellow). Dust heats and cools radiatively (green), and gas exchanges heat with the dust
+  through collisions (blue), while orbital motion advects energy downstream. At the disk surface (top), the dust
+  follows the shadow with no lag, while the gas lags by an amount set by the shorter of its collisional coupling and
+  line-cooling times. In the midplane (bottom), the dust lags by its radiative cooling time β<sub>cont</sub>, and the
+  gas lags further by the dust–gas collisional coupling time β<sub>coll</sub>. Zhang, Ma et al. (submitted).
+</div>
+
 Because these timescales depend on the gas density and on the size of the dust grains, measuring them gives a new,
 **thermodynamical** way to weigh disks and to constrain grain sizes, independent of the usual dust-continuum
 arguments. With PhD student Xiaoyi Ma (KIAA, Peking University), Jane Huang, Zhaohuan Zhu, and Simon Casassus, I
