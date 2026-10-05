@@ -21,7 +21,7 @@ nav_order: 3
   </div>
   <div class="col-sm-12 col-md-6 mt-3">
 <div class="rounded z-depth-1" style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/KghD4PqHo7k" title="ITC Luncheon talk on the vertical shear instability" loading="lazy"
+  <iframe src="https://www.youtube-nocookie.com/embed/KghD4PqHo7k?start=1680" title="ITC Luncheon talk on the vertical shear instability" loading="lazy"
     style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -70,7 +70,7 @@ nav_order: 3
 - Princeton Thunch — Princeton, NJ, Oct 2023
 - NRAO TUNA Talk — Charlottesville, VA, Oct 2023
 - CfA SMA Seminar — Cambridge, MA, Sep 2023
-- Harvard ITC Luncheon — Cambridge, MA, Sep 2023 ([video](https://www.youtube.com/live/KghD4PqHo7k))
+- Harvard ITC Luncheon — Cambridge, MA, Sep 2023 ([video](https://www.youtube.com/live/KghD4PqHo7k?t=1680))
 - Origins Seminar — Tucson, AZ, Sep 2023 ([video](https://youtu.be/4HIyZDWxUkE))
 - Emerging Researchers in Exoplanet Science (ERES) — New Haven, CT, Jun 2023
 - Athena++ Workshop — New York, NY, May 2023

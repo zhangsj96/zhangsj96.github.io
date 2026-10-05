@@ -38,7 +38,7 @@ explain the morphologies of mature (Class II) disks {% cite 2026arXiv260928618P 
 ### Recorded talks
 
 <div class="rounded z-depth-1" style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/KghD4PqHo7k" title="ITC Luncheon talk on the vertical shear instability" loading="lazy"
+  <iframe src="https://www.youtube-nocookie.com/embed/KghD4PqHo7k?start=1680" title="ITC Luncheon talk on the vertical shear instability" loading="lazy"
     style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
