@@ -29,7 +29,16 @@ gaps and spirals a planet produces {% cite 2020MNRAS.493.2287Z %}.
 <div class="row justify-content-sm-center">
   <div class="col-sm-12 mt-3">
     {% include video.liquid path="/assets/video/dsharp_planet_disk.mp4" poster="/assets/video/dsharp_planet_disk.jpg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
-    <div class="caption">A planet–disk interaction simulation: a young planet carves gaps in the gas, small dust, and big dust, producing rings and gaps in the 1.3 mm dust continuum like those seen by DSHARP.</div>
+    <div class="caption">Reproducing AS 209 with a single planet: one planet (M<sub>p</sub>/M<sub>*</sub> = 0.1 M<sub>J</sub>/M<sub>&#9737;</sub>) at 99 au opens multiple gaps in the gas, small dust, and big dust, producing the multiple rings and gaps seen in the 1.3 mm continuum. This is the simulation in panel (c) of Fig. 19 in Zhang et al. (2018, DSHARP VII).</div>
   </div>
 </div>
 
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3">
+    {% include figure.liquid loading="lazy" path="assets/img/research/as209_dsharp7_fig19.png" title="AS 209: observation vs. single-planet models" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  AS 209 observed by ALMA (a) compared with synthetic images from single-planet simulations (b, c); the bottom row
+  compares the radial intensity profiles. Fig. 19 of Zhang et al. (2018, DSHARP VII).
+</div>
