@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: NASA Hubble Fellowship Program Sagan Fellow &middot; <a href='https://www.astro.columbia.edu/'>Columbia University</a> &middot; (He/Him)
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Pupin Hall 1026</p>
+    <p>Columbia University</p>
+    <p>New York, NY, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -19,16 +19,36 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a computational astrophysicist studying **how planets form**. My work connects state-of-the-art
+radiation-hydrodynamical simulations with high-resolution observations from ALMA, JWST, and extreme adaptive optics,
+so that the rings, gaps, spirals, and shadows we now routinely see in planet-forming disks can be read as
+quantitative measurements of the planets and physics that shape them.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Two questions drive my research:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **Which disk substructures are carved by planets, and which are not?** I use self-consistent thermal and dust
+  physics (shadows, the vertical shear instability, temperature-driven rings) to separate planetary from
+  non-planetary origins of disk features.
+- **What young planet population do disk surveys reveal?** I infer planet masses and occurrence from hundreds of
+  observed disks (DSHARP, Taurus, and beyond) using suites of planet–disk simulations and machine learning.
+
+I am an [NHFP Sagan Fellow](https://www.stsci.edu/stsci-research/fellowships/nasa-hubble-fellowship-program) at
+Columbia University (2024–2027), hosted by [Prof. Jane Huang](http://janehuang.astro.columbia.edu/), and an incoming
+Research Fellow at the Flatiron Institute's [Center for Computational Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/)
+(2027–2028). I received my Ph.D. from the University of Nevada, Las Vegas, working with
+[Prof. Zhaohuan Zhu](https://unlv-spfg.github.io/team/zhu-zhaohuan/), and my B.S. from the University of Michigan,
+working with [Prof. Lee Hartmann](https://sites.lsa.umich.edu/lhartm/), after two years at Nanjing University.
+
+My simulations use the radiation module of [Athena++](https://www.athena-astro.app/) developed by
+[Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage). See my [research](/research/) page for
+movies and highlights, or my full [publication list](/publications/) and [CV](/cv/).
+
+> **I am on the 2026–27 faculty job market.** My [CV](/assets/pdf/Shangjia_Zhang_CV.pdf) and research statement
+> materials are available on request.
+{: .block-tip }
