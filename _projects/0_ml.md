@@ -77,7 +77,7 @@ inferred young planets with mature exoplanet populations {% cite 2023ApJ...952..
 
 **Which physics made this structure?** Rings, spirals, and asymmetries can be produced by planets, but also by
 binaries, gravitational instability, magnetic processes, infall, or shadows. Current machine-learning pipelines often
-assume every substructure is planetary and neglect thermodynamics. I am developing hierarchical, simulation-based
+assume every substructure is planetary and neglect thermodynamics. I plan to develop hierarchical, simulation-based
 inference that first identifies the plausible physical model class and only then infers parameters within it, with
 uncertainties propagated throughout. Because my simulations include multi-frequency radiation transport, multiple dust
 species, and dust–gas coupling, they provide training sets far more realistic than those used in current pipelines.
@@ -85,7 +85,7 @@ species, and dust–gas coupling, they provide training sets far more realistic 
 **Accelerating disk kinematics with modern GPU/CPU architectures.** [Discminer](https://github.com/andizq/discminer)
 extracts disk geometry, temperature, and velocity structure from ALMA channel maps. As I add the non-axisymmetric
 temperature structures predicted by my radiation-hydrodynamical simulations, forward modeling and posterior
-exploration become very expensive. I am building machine-learning surrogate models and differentiable emulators that
+exploration become very expensive. I plan to build machine-learning surrogate models and differentiable emulators that
 run efficiently on modern GPU and CPU architectures, to accelerate both the forward model and the likelihood. This will
 make Bayesian inference feasible for azimuthal temperature variations, multiple emitting surfaces, and non-Keplerian
 flows, tested against full data cubes rather than a few summary statistics.

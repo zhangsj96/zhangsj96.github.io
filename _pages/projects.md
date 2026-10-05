@@ -46,7 +46,7 @@ My program has two connected pillars. The goal is to tell apart disk substructur
 with other origins, and to build a quantitative, predictive link between planet properties and what we observe.
 
 **I. Multi-physics models.** Radiation, gas, dust, and planets should evolve together rather than
-treating radiative transfer as static post-processing. Supported by large NASA supercomputing allocations, I am among
+treating radiative transfer as static post-processing. I am among
 the first users of **PASTA**, a next-generation GPU-accelerated code developed by my close collaborator Yan-Fei Jiang,
 and I help test it. PASTA now includes a dust Boltzmann treatment, in which dust is modeled as a kinetic
 component whose streams can cross rather than as a pressureless fluid, together with dust growth, coagulation, and
@@ -55,24 +55,15 @@ Because dust sets most of the disk opacity, evolving dust and radiation together
 Modern GPU architectures make this high-dimensional problem feasible and open physical regimes that were
 previously out of reach, especially in the inner disk, where terrestrial planets form.
 
-> **About PASTA** (not yet publicly released)
+> **About PASTA** (publicly available soon, after thorough testing)
 >
-> - **Hydrodynamics:** HLLE, HLLC, and Roe Riemann solvers; reconstruction from piecewise constant and linear up to
->   WENO3, WENO-Z, and PPM5; ideal, isothermal, and general (tabulated, hydrogen, gas + radiation) equations of state.
-> - **Magnetohydrodynamics:** constrained transport that holds div **B** to machine precision in every coordinate
->   system, including through the spherical polar axis and across mesh-refinement level jumps; HLLE and HLLD
->   solvers; shearing box and orbital advection (FARGO-MHD); radiation-MHD out of the box.
-> - **Radiation transport:** explicit and implicit multi-group radiation with implicit radiation–matter coupling,
->   angular flux, and Compton and frame-transform terms.
+> - **Radiation transport:** explicit and implicit multi-group radiation with implicit radiation–matter coupling.
 > - **Dust:** a kinetic (Boltzmann) dust treatment that lets dust streams cross, with dust growth and coagulation.
-> - **More physics:** coupling to N-body dynamics, passive scalars, self-gravity (FFT Poisson solver), and turbulence
->   driving.
-> - **Scalability:** static and adaptive mesh refinement with MPI domain decomposition.
 {: .block-tip }
 
-**II. AI-assisted inference across images, spectra, and time.** Building on [PGNets](/projects/0_ml/), I am
-developing simulation-based inference that first identifies which physical process made a structure and then
-measures its properties. I am using machine-learning surrogates on modern GPU/CPU architectures to accelerate
-[Discminer](https://github.com/andizq/discminer) modeling of ALMA kinematics, and preparing to measure shadow motions
-across a population of disks with Gaia DR4 residual images (expected December 2026). See
+**II. AI-assisted inference across images, spectra, and time.** Building on [PGNets](/projects/0_ml/), I plan to
+develop simulation-based inference that first identifies which physical process made a structure and then measures
+its properties, and to use machine-learning surrogates on modern GPU/CPU architectures to accelerate
+[Discminer](https://github.com/andizq/discminer) modeling of ALMA kinematics. I am also building software to measure
+shadow motions across a population of disks with Gaia DR4 residual images (expected December 2026). See
 [machine learning](/projects/0_ml/) for details.
