@@ -27,7 +27,8 @@ latest_posts:
 
 **Beyond the snapshot.** I am a computational astrophysicist who studies how planets form. ALMA, JWST, and
 extreme adaptive optics now give us sharp images of planet-forming disks. Rings and gaps are ubiquitous. Some disks
-also show spirals, shadows, and warps. But even ALMA's spectral-line data, which also map gas velocities, capture each disk at a single moment. I build 3D simulations that evolve in
+also show spirals, shadows, and warps. With ALMA and VLT/SPHERE observing for more than a decade, we
+now have more than snapshots. Repeated observations show disks changing over time. I build 3D simulations that evolve in
 time, with many dust sizes, multi-frequency radiation, and dust–gas coupling. How disks change and respond then
 tells us about the physics that shapes planet formation.
 
