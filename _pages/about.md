@@ -32,9 +32,9 @@ quantitative measurements of the planets and physics that shape them.
 
 Two questions drive my research:
 
-- **Which disk substructures are carved by planets, and which are not?** I use self-consistent thermal and dust
-  physics (shadows, the vertical shear instability, temperature-driven rings) to separate planetary from
-  non-planetary origins of disk features.
+- **Which disk substructures are carved by planets, and which are not?** I use 3D multi-physics
+  radiation-hydrodynamical simulations, with multiple dust species, multi-frequency radiation transport, and
+  dust–gas coupling, to separate planetary from non-planetary origins of disk features.
 - **What young planet population do disk surveys reveal?** I infer planet masses and occurrence from hundreds of
   observed disks (DSHARP, Taurus, and beyond) using suites of planet–disk simulations and machine learning.
 

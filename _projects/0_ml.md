@@ -12,7 +12,7 @@ Hundreds of planet-forming disks have now been imaged at high resolution, and ne
 or spirals. If even some of these are carved by planets, they reveal a population of young planets that no other
 technique can currently detect. Turning this growing sample into planet demographics requires inference that is
 fast, uses the full information in an image, and propagates physical uncertainties honestly. My goal is not to
-replace physics with a black box, but to use machine learning to make rich, self-consistent physical models
+replace physics with a black box, but to use machine learning to make rich, multi-physics models
 tractable and to confront them directly with data.
 
 ## PGNets: weighing planets directly from disk images
@@ -79,8 +79,8 @@ inferred young planets with mature exoplanet populations {% cite 2023ApJ...952..
 binaries, gravitational instability, magnetic processes, infall, or shadows. Current machine-learning pipelines often
 assume every substructure is planetary and neglect thermodynamics. I am developing hierarchical, simulation-based
 inference that first identifies the plausible physical model class and only then infers parameters within it, with
-uncertainties propagated throughout. Because my simulations include self-consistent radiation transport and
-thermodynamics, they provide training sets far more realistic than those used in current pipelines.
+uncertainties propagated throughout. Because my simulations include multi-frequency radiation transport, multiple dust
+species, and dust–gas coupling, they provide training sets far more realistic than those used in current pipelines.
 
 **Accelerating disk kinematics with modern GPU/CPU architectures.** [Discminer](https://github.com/andizq/discminer)
 extracts disk geometry, temperature, and velocity structure from ALMA channel maps. As I add the non-axisymmetric

@@ -45,7 +45,7 @@ movies, and key papers.
 My program has two connected pillars. The goal is to tell apart disk substructures carved by planets from those
 with other origins, and to build a quantitative, predictive link between planet properties and what we observe.
 
-**I. Self-consistent multiphysics models.** Radiation, gas, dust, and planets should evolve together rather than
+**I. Multi-physics models.** Radiation, gas, dust, and planets should evolve together rather than
 treating radiative transfer as static post-processing. Supported by large NASA supercomputing allocations, I am among
 the first users of **PASTA**, a next-generation GPU-accelerated code developed by my close collaborator Yan-Fei Jiang,
 and I help test it. PASTA now includes a dust Boltzmann treatment, in which dust is modeled as a kinetic
