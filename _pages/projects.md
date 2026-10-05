@@ -2,10 +2,10 @@
 layout: page
 title: research
 permalink: /research/
-description: Connecting radiation-hydrodynamical simulations with observations of planet-forming disks.
+description: Connecting radiation-hydrodynamical simulations, machine learning, and observations of planet-forming disks.
 nav: true
 nav_order: 1
-display_categories: [disk physics, planet formation]
+display_categories: [machine learning, disk physics, planet formation]
 horizontal: false
 ---
 
@@ -42,8 +42,23 @@ movies, and key papers.
 
 ## Future directions
 
-My current goal is to tell apart disk substructures carved by planets from those with non-planetary origins, and to
-build a quantitative link between planet properties and the kinematic and morphological features we observe. This
-means combining self-consistent radiation hydrodynamics (realistic dust, cooling, and stellar irradiation) with
-synthetic observations that can be compared directly to ALMA line kinematics, multi-wavelength continuum, and
-scattered-light imaging, and then applying these models statistically across large disk surveys.
+My program has two connected pillars. The goal is to tell apart disk substructures carved by planets from those
+with other origins, and to build a quantitative, predictive link between planet properties and what we observe.
+
+**I. Self-consistent multiphysics models.** Radiation, gas, dust, and planets should evolve together rather than
+treating radiative transfer as static post-processing. Beyond the 5 million CPU hours per year I have secured through
+NASA's High-End Computing Capability program, I am among the first users of **PASTA**, the next-generation
+GPU-accelerated code developed by my close collaborator Yan-Fei Jiang, and am testing it for disk applications. With
+colleagues at the Flatiron Institute's Center for Computational Astrophysics, I plan to implement a dust Boltzmann
+treatment in PASTA, so that dust is modeled as a kinetic component whose streams can cross rather than a pressureless
+fluid, and to add dust growth, coagulation, and coupling to N-body dynamics. Because dust sets most of the disk
+opacity, evolving dust and radiation together is essential for predictive models. Modern GPU architectures make this
+high-dimensional problem feasible and open physical regimes that were previously out of reach, especially in the
+inner disk, where terrestrial planets form.
+
+**II. AI-assisted inference across images, spectra, and time.** Building on [PGNets](/projects/0_ml/), I am
+developing simulation-based inference that first identifies which physical process made a structure and then
+measures its properties. I am using machine-learning surrogates on modern GPU/CPU architectures to accelerate
+[Discminer](https://github.com/andizq/discminer) modeling of ALMA kinematics, and preparing to measure shadow motions
+across a population of disks with Gaia DR4 residual images (expected December 2026). See
+[machine learning](/projects/0_ml/) for details.

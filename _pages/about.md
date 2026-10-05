@@ -25,18 +25,22 @@ latest_posts:
   enabled: false
 ---
 
-I am a computational astrophysicist studying **how planets form**. My work connects state-of-the-art
-radiation-hydrodynamical simulations with high-resolution observations from ALMA, JWST, and extreme adaptive optics,
-so that the rings, gaps, spirals, and shadows we now routinely see in planet-forming disks can be read as
-quantitative measurements of the planets and physics that shape them.
+I am a computational astrophysicist studying **how planets form**. My work brings together state-of-the-art
+radiation-hydrodynamical simulations, **machine learning**, and high-resolution observations from ALMA, JWST, and
+extreme adaptive optics, so that the rings, gaps, spirals, and shadows we now routinely see in planet-forming disks can
+be read as quantitative measurements of the planets and physics that shape them.
 
-Two questions drive my research:
+My research has two connected pillars:
 
-- **Which disk substructures are carved by planets, and which are not?** I use self-consistent thermal and dust
-  physics (shadows, the vertical shear instability, temperature-driven rings) to separate planetary from
-  non-planetary origins of disk features.
-- **What young planet population do disk surveys reveal?** I infer planet masses and occurrence from hundreds of
-  observed disks (DSHARP, Taurus, and beyond) using suites of planet–disk simulations and machine learning.
+- **Self-consistent multiphysics models.** Using radiation hydrodynamics, I model how radiation, gas, dust, and
+  planets evolve together, with shadows, the vertical shear instability, and temperature-driven structures, to
+  separate planetary from non-planetary origins of disk features. I am now taking this to GPUs as an early user of
+  **PASTA**, a next-generation GPU-accelerated code developed by Yan-Fei Jiang.
+- **AI-assisted inference.** I was among the first to infer planet masses directly from disk images with
+  convolutional neural networks ([PGNets](/projects/0_ml/)), building on my DSHARP planet inference. I am now
+  developing simulation-based inference that identifies which physics produced a structure, machine-learning
+  surrogates on modern GPU/CPU architectures to accelerate Discminer modeling of ALMA kinematics, and tools to track
+  shadow motions across many disks with Gaia DR4.
 
 I am an [NHFP Sagan Fellow](https://www.stsci.edu/stsci-research/fellowships/nasa-hubble-fellowship-program) at
 Columbia University (2024–2027), hosted by [Prof. Jane Huang](http://janehuang.astro.columbia.edu/), and an incoming
@@ -45,6 +49,6 @@ Research Fellow at the Flatiron Institute's [Center for Computational Astrophysi
 [Prof. Zhaohuan Zhu](https://unlv-spfg.github.io/team/zhu-zhaohuan/), and my B.S. from the University of Michigan,
 working with [Prof. Lee Hartmann](https://sites.lsa.umich.edu/lhartm/), after two years at Nanjing University.
 
-My simulations use the radiation module of [Athena++](https://www.athena-astro.app/) developed by
-[Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage). See my [research](/research/) page for
+My simulations use the radiation module of [Athena++](https://www.athena-astro.app/) and the new GPU code PASTA, both
+developed by [Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage). See my [research](/research/) page for
 movies and highlights, or my full [publication list](/publications/) and [CV](/cv/).
