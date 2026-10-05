@@ -25,25 +25,23 @@ latest_posts:
   enabled: false
 ---
 
-**Beyond the snapshot.** I am a computational astrophysicist studying **how planets form**. Most of what we know
-about planet-forming disks comes from single images from ALMA, JWST, and extreme adaptive optics: rings and gaps are
-ubiquitous, and some disks also show spirals, shadows, and warps. I build 3D, time-evolving models with multiple dust
-species, multi-frequency radiation, and dust–gas coupling, so that how disks change, respond, and are structured in
-three dimensions becomes a measurement of the physics that sets where and how planets form. Shadows, accretion
-bursts like those in DQ Tau, dust growth, and vertical structure are natural experiments; chemistry is next.
+**Beyond the snapshot.** I am a computational astrophysicist who studies how planets form. ALMA, JWST, and
+extreme adaptive optics now give us sharp images of planet-forming disks. Rings and gaps are ubiquitous. Some disks
+also show spirals, shadows, and warps. But each image is a single snapshot. I build 3D simulations that evolve in
+time, with many dust sizes, multi-frequency radiation, and dust–gas coupling. How disks change and respond then
+tells us about the physics that shapes planet formation.
 
 Two questions drive my research:
 
-- **Which disk substructures are carved by planets, and which are not?** I use these 3D
-  multi-physics radiation-hydrodynamical simulations to separate planetary from non-planetary origins of disk
-  features.
+- **Which disk substructures are carved by planets, and which are not?** I use these simulations to tell
+  planetary from non-planetary origins of disk features.
 - **What young planet population do disk surveys reveal?** I infer planet masses and occurrence in DSHARP,
   Taurus, and other disk samples using suites of planet–disk simulations and machine learning.
 
-Two methodological pillars make these goals possible. **Supercomputing:** large radiation-hydrodynamical simulations on modern
-CPU and GPU architectures, including the new GPU code [PASTA](/research/#future-directions). **Machine learning:**
-from [PGNets](/projects/0_ml/), among the first neural networks to infer planet masses directly from disk images, to
-AI-assisted inference that makes these rich models fast enough to confront with data.
+Two methods make this possible. **Supercomputing:** large radiation-hydrodynamical simulations on modern CPUs and
+GPUs, including the new GPU code [PASTA](/research/#future-directions). **Machine learning:** I was among the first
+to infer planet masses directly from disk images with neural networks ([PGNets](/projects/0_ml/)). Next, I plan to
+use AI to make these complex models fast enough to compare with data.
 
 I am an [NHFP Sagan Fellow](https://www.stsci.edu/stsci-research/fellowships/nasa-hubble-fellowship-program) at
 Columbia University (2024–2027), hosted by [Prof. Jane Huang](http://janehuang.astro.columbia.edu/), and an incoming

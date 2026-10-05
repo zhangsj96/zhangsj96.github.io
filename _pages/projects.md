@@ -61,6 +61,9 @@ previously out of reach, especially in the inner disk, where terrestrial planets
 > - **Dust:** a kinetic (Boltzmann) dust treatment that lets dust streams cross, with dust growth and coagulation.
 {: .block-tip }
 
+Shadows, accretion bursts like those in DQ Tau, dust growth, and vertical structure are natural experiments for
+these models. Chemistry is the next step.
+
 **II. AI-assisted inference across images, spectra, and time.** Building on [PGNets](/projects/0_ml/), I plan to
 develop simulation-based inference that first identifies which physical process made a structure and then measures
 its properties, and to use machine-learning surrogates on modern GPU/CPU architectures to accelerate
