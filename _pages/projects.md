@@ -48,11 +48,11 @@ with other origins, and to build a quantitative, predictive link between planet 
 **I. Self-consistent multiphysics models.** Radiation, gas, dust, and planets should evolve together rather than
 treating radiative transfer as static post-processing. Supported by large NASA supercomputing allocations, I am among
 the first users of **PASTA**, a next-generation GPU-accelerated code developed by my close collaborator Yan-Fei Jiang,
-and am testing it for disk applications. With colleagues at the Flatiron Institute's Center for Computational
-Astrophysics, I plan to implement a dust Boltzmann treatment in PASTA, so that dust is modeled as a kinetic component
-whose streams can cross rather than a pressureless fluid, and to add dust growth, coagulation, and coupling to N-body
-dynamics. Because dust sets most of the disk opacity, evolving dust and radiation together is essential for predictive
-models. Modern GPU architectures make this high-dimensional problem feasible and open physical regimes that were
+and I help test it. PASTA now includes a dust Boltzmann treatment, in which dust is modeled as a kinetic
+component whose streams can cross rather than as a pressureless fluid, together with dust growth, coagulation, and
+coupling to N-body dynamics. My focus is on exploring all of these aspects in protoplanetary disks and other systems.
+Because dust sets most of the disk opacity, evolving dust and radiation together is essential for predictive models.
+Modern GPU architectures make this high-dimensional problem feasible and open physical regimes that were
 previously out of reach, especially in the inner disk, where terrestrial planets form.
 
 > **About PASTA** (not yet publicly released)
@@ -64,7 +64,9 @@ previously out of reach, especially in the inner disk, where terrestrial planets
 >   solvers; shearing box and orbital advection (FARGO-MHD); radiation-MHD out of the box.
 > - **Radiation transport:** explicit and implicit multi-group radiation with implicit radiation–matter coupling,
 >   angular flux, and Compton and frame-transform terms.
-> - **More physics:** dust, passive scalars, self-gravity (FFT Poisson solver), and turbulence driving.
+> - **Dust:** a kinetic (Boltzmann) dust treatment that lets dust streams cross, with dust growth and coagulation.
+> - **More physics:** coupling to N-body dynamics, passive scalars, self-gravity (FFT Poisson solver), and turbulence
+>   driving.
 > - **Scalability:** static and adaptive mesh refinement with MPI domain decomposition.
 {: .block-tip }
 
