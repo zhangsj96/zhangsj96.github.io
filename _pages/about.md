@@ -2,29 +2,56 @@
 layout: about
 title: about
 permalink: /
-subtitle: (He/Him) Columbia University</a>, PhD, Computational Astrophysicist
+subtitle: NASA Hubble Fellowship Program Sagan Fellow &middot; <a href='https://www.astro.columbia.edu/'>Columbia University</a> &middot; (He/Him)
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Pupin Hall 1026,</p>
+  more_info: >
+    <p>Pupin Hall 1026</p>
     <p>Columbia University</p>
     <p>New York, NY, USA</p>
-    <p>sz3342 at columbia.edu</p>
-    
-news: false  # includes a list of news items
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 6 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
 ---
 
-Hello! My name is Shangjia Zhang (张尚嘉). I am an NHFP (NASA Hubble Fellowship Program) Sagan Fellow at Columbia University, hosted by [Prof. Jane Huang](http://janehuang.astro.columbia.edu/). I recently graduated from the University of Nevada, Las Vegas (UNLV), where I worked with [Prof. Zhaohuan Zhu](https://unlv-spfg.github.io/team/zhu-zhaohuan/) on various aspects of the protoplanetary disk, the birthplace of planets. Prior to Las Vegas, I completed my undergraduate studies at the University of Michigan, Ann Arbor, where I worked with [Prof. Lee Hartmann](https://sites.lsa.umich.edu/lhartm/) on star formation. Before that, I spent two years at Nanjing University, which has one of the most prestigious astronomy programs in China. I was born and raised in Beijing, China.
+**Beyond the snapshot.** I am a computational astrophysicist who studies how planets form. Breakthrough
+observatories such as ALMA, JWST, and extreme adaptive optics instruments now give us sharp images of
+planet-forming disks. Rings and gaps are ubiquitous. Some disks
+also show spirals, shadows, and warps. After more than a decade of these observations,
+we have more than snapshots. We can now see disks change over time. I build 3D simulations that evolve in
+time, with many dust sizes, multi-frequency radiation, and dust–gas coupling. How disks change and respond then
+tells us about the physics that shapes planet formation.
 
-Currently, I study protoplanetary disks with a focus on self-consistent disk thermodynamics, including shadowing, planet-disk interactions, and vertical shear instability (VSI). I use the powerful Athena++ radiation module developed by [Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage) to carry out my research. The goal is to empower the interpretation of the increasingly detailed data from fast-advancing ALMA (Atacama Large Millimeter Array) and exAO (extreme Adaptive Optics) observations.
+Two questions drive my research:
 
-Since dust particles provide both the mass for planets and opacity for radiation, I am also interested in constraining dust particle size and porosity in protoplanetary disks using continuum and polarization observations.
+- **Which disk substructures are carved by planets, and which are not?** I use these simulations to tell
+  planetary from non-planetary origins of disk features.
+- **What young planet population do disk surveys reveal?** I infer planet masses and occurrence in DSHARP,
+  Taurus, and other disk samples using suites of planet–disk simulations and machine learning.
 
-Additionally, I am keen on inferring planet populations from ALMA surveys such as DSHARP and the Taurus sample, using fittings—including machine learning techniques—based on suites of planet-disk interaction simulations.
+Two methods make this possible. **Supercomputing:** large radiation-hydrodynamical simulations on modern CPUs and
+GPUs, including the new GPU code [PASTA](/research/#future-directions). **Machine learning:** I was among the first
+to infer planet masses directly from disk images with neural networks ([PGNets](/projects/0_ml/)). Next, I plan to
+use AI to make these complex models fast enough to compare with data.
 
-You can find my publications on ADS [here](https://ui.adsabs.harvard.edu/public-libraries/Pr-dNlzISAu-ZARtksGGqQ).
+I am an [NHFP Sagan Fellow](https://www.stsci.edu/stsci-research/fellowships/nasa-hubble-fellowship-program) at
+Columbia University (2024–2027), hosted by [Prof. Jane Huang](http://janehuang.astro.columbia.edu/), and an incoming
+Research Fellow at the Flatiron Institute's [Center for Computational Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/)
+(2027–2028). I received my Ph.D. from the University of Nevada, Las Vegas, working with
+[Prof. Zhaohuan Zhu](https://unlv-spfg.github.io/team/zhu-zhaohuan/), and my B.S. from the University of Michigan,
+working with [Prof. Lee Hartmann](https://sites.lsa.umich.edu/lhartm/), after two years at Nanjing University.
+
+My simulations use the radiation module of [Athena++](https://www.athena-astro.app/) and the new GPU code PASTA, both
+developed by [Dr. Yan-Fei Jiang](https://jiangyanfei1986.wixsite.com/yanfei-homepage). See my [research](/research/) page for
+movies and highlights, or my full [publication list](/publications/) and [CV](/cv/).

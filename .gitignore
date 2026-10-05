@@ -1,11 +1,30 @@
 _site
 .bundle
-.sass-cache
+.DS_store
+.idea
 .jekyll-cache
 .jekyll-metadata
-.DS_store
 .ruby-version
+.sass-cache
 .tweet-cache
-Gemfile.lock
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+al-folio-upgrade-report.md
+node_modules/
+output/playwright/
+test-results/
 vendor
 
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc
+
+# local preview config
+.claude/
+
+# Unpublished work: shown in the local preview only, never pushed to GitHub.
+# Once a paper is submitted, delete its lines here, then commit the files.
+_includes/unpublished/
+_data/unpublished.yml
+assets/img/unpublished/
