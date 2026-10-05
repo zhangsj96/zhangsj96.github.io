@@ -8,8 +8,8 @@ category: machine learning
 related_publications: true
 ---
 
-Hundreds of planet-forming disks have now been imaged at high resolution, and nearly all of them show rings, gaps,
-or spirals. If even some of these are carved by planets, they reveal a population of young planets that no other
+Many planet-forming disks have now been imaged at high resolution, and rings and gaps are ubiquitous among them,
+with spirals in some. If even some of these are carved by planets, they reveal a population of young planets that no other
 technique can currently detect. Turning this growing sample into planet demographics requires inference that is
 fast, uses the full information in an image, and propagates physical uncertainties honestly. My goal is not to
 replace physics with a black box, but to use machine learning to make rich, multi-physics models

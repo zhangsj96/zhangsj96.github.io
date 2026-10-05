@@ -9,8 +9,8 @@ display_categories: [machine learning, disk physics, planet formation]
 horizontal: false
 ---
 
-ALMA, JWST, and extreme adaptive optics now resolve planet-forming disks in remarkable detail, revealing rings, gaps,
-spirals, shadows, and warps in nearly every disk we look at. My research asks what these features tell us about the
+ALMA, JWST, and extreme adaptive optics now resolve planet-forming disks in remarkable detail. Rings and gaps are
+ubiquitous, and some disks also show spirals, shadows, and warps. My research asks what these features tell us about the
 planets forming inside them and about the physics of the disks themselves. Click on a theme below for highlights,
 movies, and key papers.
 

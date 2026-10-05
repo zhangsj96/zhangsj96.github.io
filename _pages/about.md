@@ -25,18 +25,20 @@ latest_posts:
   enabled: false
 ---
 
-I am a computational astrophysicist studying **how planets form**. My work connects state-of-the-art
-radiation-hydrodynamical simulations with high-resolution observations from ALMA, JWST, and extreme adaptive optics,
-so that the rings, gaps, spirals, and shadows we now routinely see in planet-forming disks can be read as
-quantitative measurements of the planets and physics that shape them.
+**Beyond the snapshot.** I am a computational astrophysicist studying **how planets form**. Most of what we know
+about planet-forming disks comes from single images from ALMA, JWST, and extreme adaptive optics: rings and gaps are
+ubiquitous, and some disks also show spirals, shadows, and warps. I build 3D, time-evolving models with multiple dust
+species, multi-frequency radiation, and dust–gas coupling, so that how disks change, respond, and are structured in
+three dimensions becomes a measurement of the physics that sets where and how planets form. Shadows, accretion
+bursts like those in DQ Tau, dust growth, and vertical structure are natural experiments; chemistry is next.
 
 Two questions drive my research:
 
-- **Which disk substructures are carved by planets, and which are not?** I use 3D multi-physics
-  radiation-hydrodynamical simulations, with multiple dust species, multi-frequency radiation transport, and
-  dust–gas coupling, to separate planetary from non-planetary origins of disk features.
-- **What young planet population do disk surveys reveal?** I infer planet masses and occurrence from hundreds of
-  observed disks (DSHARP, Taurus, and beyond) using suites of planet–disk simulations and machine learning.
+- **Which disk substructures are carved by planets, and which are not?** I use these 3D
+  multi-physics radiation-hydrodynamical simulations to separate planetary from non-planetary origins of disk
+  features.
+- **What young planet population do disk surveys reveal?** I infer planet masses and occurrence in DSHARP,
+  Taurus, and other disk samples using suites of planet–disk simulations and machine learning.
 
 Two methodological pillars make these goals possible. **Supercomputing:** large radiation-hydrodynamical simulations on modern
 CPU and GPU architectures, including the new GPU code [PASTA](/research/#future-directions). **Machine learning:**
