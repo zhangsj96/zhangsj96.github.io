@@ -35,7 +35,7 @@ My research has two connected pillars:
 - **Self-consistent multiphysics models.** Using radiation hydrodynamics, I model how radiation, gas, dust, and
   planets evolve together, with shadows, the vertical shear instability, and temperature-driven structures, to
   separate planetary from non-planetary origins of disk features. I am now taking this to GPUs as an early user of
-  **PASTA**, a next-generation GPU-accelerated code developed by Yan-Fei Jiang.
+  **[PASTA](/research/#future-directions)**, a next-generation GPU-accelerated code developed by Yan-Fei Jiang.
 - **AI-assisted inference.** I was among the first to infer planet masses directly from disk images with
   convolutional neural networks ([PGNets](/projects/0_ml/)), building on my DSHARP planet inference. I am now
   developing simulation-based inference that identifies which physics produced a structure, machine-learning

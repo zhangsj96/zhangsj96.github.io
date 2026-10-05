@@ -17,6 +17,19 @@ help reconcile the two in the HL Tau disk {% cite 2023ApJ...953...96Z %}, and wi
 differential dust settling {% cite 2021ApJ...913..117U %}.
 
 <div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3">
+    {% include figure.liquid loading="lazy" path="assets/img/research/porous_dust_idp.jpg" title="A porous interplanetary dust particle" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  What does "porous" dust look like? A chondritic porous interplanetary dust particle imaged with a scanning electron
+  microscope: an open, fluffy aggregate of many sub-micrometer grains. A filling factor f = 0.1 means only 10% of the
+  particle's volume is solid material. Image: Amara, via
+  <a href="https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg">Wikimedia Commons</a>,
+  <a href="https://creativecommons.org/licenses/by/1.0/">CC BY 1.0</a>.
+</div>
+
+<div class="row justify-content-sm-center">
   <div class="col-sm-12 mt-3">
     {% include figure.liquid loading="lazy" path="assets/img/research/hltau_porosity.png" title="HL Tau porosity constraints" class="img-fluid rounded z-depth-1" %}
   </div>

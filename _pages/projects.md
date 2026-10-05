@@ -46,15 +46,27 @@ My program has two connected pillars. The goal is to tell apart disk substructur
 with other origins, and to build a quantitative, predictive link between planet properties and what we observe.
 
 **I. Self-consistent multiphysics models.** Radiation, gas, dust, and planets should evolve together rather than
-treating radiative transfer as static post-processing. Beyond the 5 million CPU hours per year I have secured through
-NASA's High-End Computing Capability program, I am among the first users of **PASTA**, the next-generation
-GPU-accelerated code developed by my close collaborator Yan-Fei Jiang, and am testing it for disk applications. With
-colleagues at the Flatiron Institute's Center for Computational Astrophysics, I plan to implement a dust Boltzmann
-treatment in PASTA, so that dust is modeled as a kinetic component whose streams can cross rather than a pressureless
-fluid, and to add dust growth, coagulation, and coupling to N-body dynamics. Because dust sets most of the disk
-opacity, evolving dust and radiation together is essential for predictive models. Modern GPU architectures make this
-high-dimensional problem feasible and open physical regimes that were previously out of reach, especially in the
-inner disk, where terrestrial planets form.
+treating radiative transfer as static post-processing. Supported by large NASA supercomputing allocations, I am among
+the first users of **PASTA**, a next-generation GPU-accelerated code developed by my close collaborator Yan-Fei Jiang,
+and am testing it for disk applications. With colleagues at the Flatiron Institute's Center for Computational
+Astrophysics, I plan to implement a dust Boltzmann treatment in PASTA, so that dust is modeled as a kinetic component
+whose streams can cross rather than a pressureless fluid, and to add dust growth, coagulation, and coupling to N-body
+dynamics. Because dust sets most of the disk opacity, evolving dust and radiation together is essential for predictive
+models. Modern GPU architectures make this high-dimensional problem feasible and open physical regimes that were
+previously out of reach, especially in the inner disk, where terrestrial planets form.
+
+> **About PASTA** (not yet publicly released)
+>
+> - **Hydrodynamics:** HLLE, HLLC, and Roe Riemann solvers; reconstruction from piecewise constant and linear up to
+>   WENO3, WENO-Z, and PPM5; ideal, isothermal, and general (tabulated, hydrogen, gas + radiation) equations of state.
+> - **Magnetohydrodynamics:** constrained transport that holds div **B** to machine precision in every coordinate
+>   system, including through the spherical polar axis and across mesh-refinement level jumps; HLLE and HLLD
+>   solvers; shearing box and orbital advection (FARGO-MHD); radiation-MHD out of the box.
+> - **Radiation transport:** explicit and implicit multi-group radiation with implicit radiation–matter coupling,
+>   angular flux, and Compton and frame-transform terms.
+> - **More physics:** dust, passive scalars, self-gravity (FFT Poisson solver), and turbulence driving.
+> - **Scalability:** static and adaptive mesh refinement with MPI domain decomposition.
+{: .block-tip }
 
 **II. AI-assisted inference across images, spectra, and time.** Building on [PGNets](/projects/0_ml/), I am
 developing simulation-based inference that first identifies which physical process made a structure and then
