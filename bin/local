@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Run a command inside the local "website" conda env (Ruby 3.3, Node 20, ImageMagick).
+# Usage:  bin/local bundle exec jekyll serve
+#         bin/local bundle exec jekyll build
+ENV_DIR="${WEBSITE_ENV:-$HOME/miniconda3/envs/website}"
+export PATH="$ENV_DIR/bin:$PATH"
+# conda-forge's libheif links a Homebrew path; fall back to the env's own libs.
+export DYLD_FALLBACK_LIBRARY_PATH="$ENV_DIR/lib"
+export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
+cd "$(dirname "$0")/.." && exec "$@"
