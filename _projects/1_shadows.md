@@ -48,3 +48,12 @@ substructure to a planet.
   </div>
 </div>
 
+### Recorded talk
+
+<div class="rounded z-depth-1" style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/DLnRscPJ5SA" title="Dynamical Effects of Shadows in Transition Disks (KITP)" loading="lazy"
+    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="caption"><em>Dynamical Effects of Shadows in Transition Disks</em>: talk at the KITP conference <em>Planets on Edge</em> (2025) on shadow-induced spirals in transition disks (Zhang &amp; Zhu 2024).</div>

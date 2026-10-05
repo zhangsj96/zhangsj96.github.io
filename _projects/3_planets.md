@@ -42,3 +42,13 @@ gaps and spirals a planet produces {% cite 2020MNRAS.493.2287Z %}.
   AS 209 observed by ALMA (a) compared with synthetic images from single-planet simulations (b, c); the bottom row
   compares the radial intensity profiles. Fig. 19 of Zhang et al. (2018, DSHARP VII).
 </div>
+
+### Recorded talk
+
+<div class="rounded z-depth-1" style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/4HIyZDWxUkE" title="Probing Young Planet Population with 3D Self-Consistent Thermodynamics (Origins Seminar)" loading="lazy"
+    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="caption"><em>Probing Young Planet Population with 3D Self-Consistent Thermodynamics</em>: University of Arizona Origins Seminar (2023), covering DSHARP planet inference, machine learning (PGNets), and the vertical shear instability.</div>

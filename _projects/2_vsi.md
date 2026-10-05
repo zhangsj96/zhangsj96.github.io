@@ -35,3 +35,20 @@ explain the morphologies of mature (Class II) disks {% cite 2026arXiv260928618P 
   Flow structure of the vertical shear instability visualized with line integral convolution. <a href="https://doi.org/10.6084/m9.figshare.32300919">full resolution on figshare</a>.
 </div>
 
+### Recorded talks
+
+<div class="rounded z-depth-1" style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/KghD4PqHo7k" title="ITC Luncheon talk on the vertical shear instability" loading="lazy"
+    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="caption">Talk at the Harvard ITC Luncheon (September 2023) on how thermal structure shapes the vertical shear instability (Zhang, Zhu &amp; Jiang 2024).</div>
+
+<div class="rounded z-depth-1" style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/4HIyZDWxUkE" title="Probing Young Planet Population with 3D Self-Consistent Thermodynamics (Origins Seminar)" loading="lazy"
+    style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="caption"><em>Probing Young Planet Population with 3D Self-Consistent Thermodynamics</em>: University of Arizona Origins Seminar (2023), covering DSHARP planet inference, machine learning (PGNets), and the vertical shear instability.</div>
