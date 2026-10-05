@@ -17,7 +17,7 @@ strongly turbulent, driving fast flows near the stellar irradiation surface {% c
 
 I continue this program with collaborators and students, extending the radiation transport to frequency-dependent
 absorption and scattering opacities {% cite 2026arXiv260608859B %} and coupling it to dust coagulation and settling to
-explain the morphologies of mature (Class II) disks {% cite pfeil2026vsiclassii %}.
+explain the morphologies of mature (Class II) disks {% cite 2026arXiv260928618P %}.
 
 ### Movies
 
