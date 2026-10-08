@@ -25,20 +25,22 @@ latest_posts:
   enabled: false
 ---
 
-**Beyond the snapshot.** I am a computational astrophysicist who studies how planets form. Breakthrough
-observatories such as ALMA, JWST, and extreme adaptive optics instruments now give us sharp images of
-planet-forming disks. Rings and gaps are ubiquitous. Some disks
-also show spirals, shadows, and warps. After more than a decade of these observations,
-we have more than snapshots. We can now see disks change over time. I build 3D simulations that evolve in
-time, with many dust sizes, multi-frequency radiation, and dust–gas coupling. How disks change and respond then
-tells us about the physics that shapes planet formation.
+I am a computational astrophysicist who studies how planets form. Breakthrough observatories such as ALMA, JWST,
+and extreme adaptive optics instruments now show planet-forming disks in remarkable detail. Rings and gaps are
+ubiquitous, and some disks also show spirals, shadows, and warps. We can map their dust, gas motions, and
+temperatures, and after more than a decade of observations, we can even see some disks change. My goal is to turn
+these observations into a physical picture of how planets form.
 
-Two questions drive my research:
+My research has two connected threads:
 
-- **Which disk substructures are carved by planets, and which are not?** I use these simulations to tell
-  planetary from non-planetary origins of disk features.
-- **What young planet population do disk surveys reveal?** I infer planet masses and occurrence in DSHARP,
-  Taurus, and other disk samples using suites of planet–disk simulations and machine learning.
+- **How planets and disks shape each other.** I build first-principles, multi-physics simulations of planet–disk
+  interactions, with multiple dust species, multi-frequency radiation, and dust–gas coupling. I use them to tell
+  which substructures are carved by planets and to infer the young planet population in disk surveys such as DSHARP
+  and Taurus. With upcoming surveys such as Roman, I plan to connect this population to mature exoplanets.
+- **New probes of disk physics.** I measure properties that were hard to reach before, such as dust grain size and
+  porosity from multi-wavelength data, and how fast disks cool. I am working to reconstruct the 3D structure of
+  disks from gas kinematics. I also find new mechanisms that drive disk evolution, such as shadow-driven dynamics,
+  and use how disks change over time to probe their physics.
 
 Two methods make this possible. **Supercomputing:** large radiation-hydrodynamical simulations on modern CPUs and
 GPUs, including the new GPU code [PASTA](/research/#future-directions). **Machine learning:** I was among the first
